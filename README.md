@@ -4,7 +4,7 @@
 
 This is a simple html form project that can be deployed to [Netlify](https://netlify.com). It uses [Netlify Forms](https://docs.netlify.com/forms/setup/) to handle the form submission. A [Netlify Trigger Function](https://docs.netlify.com/functions/trigger-on-events/) sends the verified submission via [Courier](https://courier.com) to the specified List or Recipient.
 
-![Contact Form](./resources/contact-form.png)
+![Contact Form](./resources/welcome-form.png)
 
 ## Installation Options
 
