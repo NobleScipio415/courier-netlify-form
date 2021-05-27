@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/trycourier/courier-netlify-form#readme",
   "dependencies": {
-    "@trycourier/courier": "^2.1.0"
+    "@trycourier/courier": "^2.3.0"
   }
 }

@@ -15,28 +15,26 @@
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
+    
+    
     <div class="container">
       <header>
-        <img src="images/logo.png" alt="Treva" class="logo" />
-      </header>
+        <img src="images/logo.png" alt="Courier" class="logo" />
+      </header>   
+      <h1>Welcome to Courier!</h1>
+      <h2>Introduce yourself to the team by filling in the form below:</h2>
       <main>
-        <h1>Contact Form</h1>
+        
         <form id="contact" name="contact" method="POST" data-netlify="true">
           <label>Your Name: <input type="text" name="name" /></label>
 
-          <label>Your Email: <input type="email" name="email" /></label>
+          <label>Your Role at Courier: <input type="text" name="role" /></label>
 
-          <label
-            >Your Role:
-            <select name="role[]" multiple>
-              <option value="traveller">Traveller</option>
-              <option value="agent">Travel Agent</option>
-              <option value="representative">Representative</option>
-              <option value="other">Something Else</option>
-            </select></label
-          >
+          <label>A short bio about yourself: <textarea name="bio"></textarea></label>
 
-          <label>Message: <textarea name="message"></textarea></label>
+          <label>What are you most excited about at Courier?  <textarea name="excited_about"></textarea></label>
+
+          <label>What do you like to do for fun? <textarea name="fun"></textarea></label>
 
           <button type="submit">Send</button>
         </form>
