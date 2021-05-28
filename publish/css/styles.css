@@ -40,7 +40,7 @@ main {
 form {
   display: flex;
   flex-direction: column;
-  padding: 24px;
+  padding: 20px;
   background: #9b9eab;
   border-radius: 8px;
   box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.3);
@@ -70,7 +70,7 @@ select {
 }
 
 textarea {
-  height: 150px;
+  height: 75px;
 }
 
 /* Add styles to the submit button */
